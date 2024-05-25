@@ -9,7 +9,7 @@ import javax.sql.DataSource;
 @Configuration
 public class DatabaseConfiguration {
 
-    /* Bean используем для отправки запросов к СУБД,
+    /* Используем для отправки запросов к СУБД,
     * по умл. Spring использует HikariDataSource */
     @Bean
     public NamedParameterJdbcTemplate template(DataSource dataSource) {

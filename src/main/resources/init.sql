@@ -5,5 +5,3 @@ CREATE TABLE customer(
     address     TEXT,
     created_at   TIMESTAMP       DEFAULT now()
 )
-
-ALTER TABLE customer RENAME COLUMN createdAt TO created_at
